@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2>Redux Testing Updown Counter</h2>
+
+        <div className='counter'>
+          <button className='plus' title='dicrement'><span>+</span></button>
+          <input type='text' name='quantity' className='quantity' value="0"></input>
+          <button className='minus'title=''><span>-</span></button>
+        </div>
       </header>
     </div>
   );
